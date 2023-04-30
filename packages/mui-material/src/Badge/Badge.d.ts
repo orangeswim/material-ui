@@ -11,8 +11,8 @@ export interface BadgePropsVariantOverrides {}
 export interface BadgePropsColorOverrides {}
 
 export interface BadgeOrigin {
-  vertical: 'top' | 'bottom';
-  horizontal: 'left' | 'right';
+  vertical: 'top' | 'bottom' | 'center';
+  horizontal: 'left' | 'right' | 'center';
 }
 
 export type BadgeTypeMap<D extends React.ElementType = 'span', P = {}> = ExtendBadgeTypeMap<{
